@@ -4,26 +4,26 @@
 class Gal < Formula
   desc "Document-driven AI working system for cross-tool developer workflows"
   homepage "https://github.com/monkey1wizard/golem-agents-legion"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.2.0/gal-v0.2.0-darwin-arm64.tar.gz"
-      sha256 "ac230870d6bf773fa3109f969beefe725435b9a9448d206ced26e7fa6ec63ced"
+      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.2.1/gal-v0.2.1-darwin-arm64.tar.gz"
+      sha256 "e40a398777ff3ad0240067dc7a4ccbf6294123111cf13ea0087493640a6673be"
     else
-      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.2.0/gal-v0.2.0-darwin-x64.tar.gz"
-      sha256 "7b73502518bb9387ec360a1e3a8b949b150a3e450e97f95d4e4adfd59de95d8f"
+      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.2.1/gal-v0.2.1-darwin-x64.tar.gz"
+      sha256 "5beac2bb3f14ae0a9b99db5f5914e11fec112232beded3cdefb1075698b43921"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.2.0/gal-v0.2.0-linux-arm64.tar.gz"
-      sha256 "63c3f7b92a1756b43856d5b07a8b3e8a0fa08662ca10cd9e33b95f2dfb892702"
+      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.2.1/gal-v0.2.1-linux-arm64.tar.gz"
+      sha256 "289283c86294297ad5c0dff495985d9f7b1c4afc74ed305ddc0348bb85631622"
     else
-      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.2.0/gal-v0.2.0-linux-x64.tar.gz"
-      sha256 "202a26086ac7124c59aa30adaf9b37cea9c916bad8b01323103db06230e0b54b"
+      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.2.1/gal-v0.2.1-linux-x64.tar.gz"
+      sha256 "99286e13f6b7b1a7ad114e42e3d40b9062cbc2f5c3a557df01cfb863dbd3f707"
     end
   end
 
