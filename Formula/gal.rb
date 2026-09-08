@@ -4,7 +4,6 @@
 class Gal < Formula
   desc "Document-driven AI working system for cross-tool developer workflows"
   homepage "https://github.com/monkey1wizard/golem-agents-legion"
-  version "0.2.1"
   license "MIT"
 
   on_macos do
