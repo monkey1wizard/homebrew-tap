@@ -8,21 +8,21 @@ class Gal < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.3.0/gal-v0.3.0-darwin-arm64.tar.gz"
-      sha256 "9fde72f6db33a111e3c2ac5a91cf724f32c0fb3015fe3127d04d62baabbc668d"
+      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.3.1/gal-v0.3.1-darwin-arm64.tar.gz"
+      sha256 "6bc543b69431c99d4326f4d6f9620bc4768459789a0dfd0935d0a8c6be09c9d1"
     else
-      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.3.0/gal-v0.3.0-darwin-x64.tar.gz"
-      sha256 "309ddab1a3cd031306ec93cb2d0b270a098090a6b67ac16dc758965758ae382f"
+      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.3.1/gal-v0.3.1-darwin-x64.tar.gz"
+      sha256 "3575f7eb58e7366352925d1ccce5ee0df963221c36d5d5ffb6afc9516d57f4ed"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.3.0/gal-v0.3.0-linux-arm64.tar.gz"
-      sha256 "f3c3db909bb09091aad2bf2781f2179a556aaa6b508057e17d30fe46046f476a"
+      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.3.1/gal-v0.3.1-linux-arm64.tar.gz"
+      sha256 "1a9ed4f96e6dada455aa3721810c81eefcafbe8931455300549a57e7bdc5974b"
     else
-      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.3.0/gal-v0.3.0-linux-x64.tar.gz"
-      sha256 "19aec72fc99d42fd0c2fac9b99ef19650a67e00004cd1047b91676f3559958f9"
+      url "https://github.com/monkey1wizard/golem-agents-legion/releases/download/v0.3.1/gal-v0.3.1-linux-x64.tar.gz"
+      sha256 "fca1393ac036b69358d044b2ebc8de9a3d7ded995f530bc4d1fb0eaae1b24d5a"
     end
   end
 
