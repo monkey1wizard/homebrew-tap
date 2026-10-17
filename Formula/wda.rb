@@ -7,21 +7,21 @@ class Wda < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/monkey1wizard/web-design-anchor/releases/download/v0.1.1/wda-v0.1.1-darwin-arm64.tar.gz"
-      sha256 "53c7096a13ffe0c729d3f04ddb82a86ce82f0c5e1c314e127f1e75c878219e5e"
+      url "https://github.com/monkey1wizard/web-design-anchor/releases/download/v0.1.2/wda-v0.1.2-darwin-arm64.tar.gz"
+      sha256 "f6f6c63de10214dae7fdea1e10cefb49d5b0bbed36b605573e432e5a4b4e10f0"
     else
-      url "https://github.com/monkey1wizard/web-design-anchor/releases/download/v0.1.1/wda-v0.1.1-darwin-x64.tar.gz"
-      sha256 "afad039de5cc37e46e73a70a2930464ac0adc9fa769abf377762edc485f6b78d"
+      url "https://github.com/monkey1wizard/web-design-anchor/releases/download/v0.1.2/wda-v0.1.2-darwin-x64.tar.gz"
+      sha256 "422c197389d5f9fe5d32753b5ffd348b9c0d1f2c52cb8f466c3765e7a9988543"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/monkey1wizard/web-design-anchor/releases/download/v0.1.1/wda-v0.1.1-linux-arm64.tar.gz"
-      sha256 "aff9dd545b2413654990cf1c55b122b0e5f304e0450b01d2a368faabcbcec8f3"
+      url "https://github.com/monkey1wizard/web-design-anchor/releases/download/v0.1.2/wda-v0.1.2-linux-arm64.tar.gz"
+      sha256 "6b8fc6c77d1764492d8df7a2e5e822ea6ad16eedbe896181ae27c791edbc97dd"
     else
-      url "https://github.com/monkey1wizard/web-design-anchor/releases/download/v0.1.1/wda-v0.1.1-linux-x64.tar.gz"
-      sha256 "065c62cda28370d945297745b6395176e0565737b7579c97a827949fe7e2d4e2"
+      url "https://github.com/monkey1wizard/web-design-anchor/releases/download/v0.1.2/wda-v0.1.2-linux-x64.tar.gz"
+      sha256 "f85f351ed1e60dfc2054afc09382b57e3eec20b38bfd2e3384847c5c4b306809"
     end
   end
 
