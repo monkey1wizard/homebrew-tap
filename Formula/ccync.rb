@@ -12,7 +12,6 @@
 class Ccync < Formula
   desc "Cross-agent plugin / MCP / skills manager"
   homepage "https://github.com/monkey1wizard/ccync"
-  version "0.2.0"
   license "MIT"
 
   on_macos do
